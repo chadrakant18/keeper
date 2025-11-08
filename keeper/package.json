@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "homepage": "http://chandrakant18.github.io/keeper",
+    "homepage": "http://chadrakant18.github.io/keeper",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
