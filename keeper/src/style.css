@@ -1,0 +1,158 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f7f6f3;
+  padding: 0 20px;
+}
+
+/* HEADER */
+header {
+  background: #f5ba13;
+  padding: 16px 32px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* CREATE AREA */
+form {
+  background: #fff;
+  width: 480px;
+  margin: 40px auto;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+form textarea {
+  margin-top: 10px;
+  border-bottom: none;
+}
+
+form button {
+  margin-top: 12px;
+  background: #f5ba13;
+  border: none;
+  padding: 10px 18px;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  float: right;
+}
+
+form button:hover {
+  background: #db9f0c;
+}
+
+/* NOTES */
+.note {
+  background: white;
+  width: 250px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
+
+.note h1 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.note p {
+  font-size: 15px;
+  color: #444;
+}
+
+/* DELETE BUTTON */
+.note button {
+  background: #ff4d4d;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.note button:hover {
+  background: #e04343;
+}
+
+/* LOGIN PAGE */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: #fff;
+  width: 350px;
+  padding: 30px 28px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.login-box input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+}
+
+.login-box button {
+  background: #f5ba13;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #db9f0c;
+}
